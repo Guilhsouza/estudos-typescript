@@ -2,9 +2,9 @@ const sendShip = (spaceship: { name: string, pilot?: string }) => {
     // ... 
 }
 
-sendSpaceship({ name: 'nave1', pilot: 'piloto1' })
+sendShip({ name: 'nave1', pilot: 'piloto1' })
 
-sendSpaceship({ name: 'nave2' })
+sendShip({ name: 'nave2' })
 
 let input: unknown
 
